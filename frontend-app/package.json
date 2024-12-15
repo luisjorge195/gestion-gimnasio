@@ -1,0 +1,36 @@
+{
+  "name": "frontend-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "local": "expo start --localhost",
+    "secretList": "eas secret:list",
+    "secretAdd": "eas secret:push --scope project --env-file ./.env"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "axios": "^1.6.2",
+    "expo": "~49.0.15",
+    "expo-constants": "^14.4.2",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-dropdown-select-list": "^2.0.5",
+    "react-native-mask-input": "^1.2.3",
+    "react-native-paper": "^5.11.1",
+    "react-native-table-component": "^1.2.2",
+    "react-native-uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "sharp-cli": "^4.1.1"
+  },
+  "private": true
+}
